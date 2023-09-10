@@ -1,0 +1,22 @@
+nrrdtask v.0.0.3
+2022-01-03
+
+- Added CHANGES file.
+- Updates to Makefile to include additional documentation files.
+
+--------------------------------------------------------------------------------
+
+nrrdtask v.0.0.2
+2021-12-31
+
+- BUGFIX: parent/subtask information was not reliably regenerated when changing
+  a subtask to a non-subtask in shell mode, leaving prior subtasks showing as
+  both regular task and subtask of the former parent until shell restart.
+
+--------------------------------------------------------------------------------
+
+nrrdtask v.0.0.1
+2021-12-28
+
+- initial release
+
